@@ -1,0 +1,26 @@
+body{
+  text-align: center;
+  background-color: #F1F0EA;
+}
+li{
+  border: 2px solid;
+  width: 25%;
+  border-radius: 80px 10px 80px 10px;
+  font-size: 22px;
+}
+h2{
+  background-color: #92C9B1;
+}
+h3{
+  background-color: #E0DDCF;
+}
+.rounded-circle{
+  width: 20%;
+}
+.rounded{
+  width: 20%;
+}
+.imgLoisir{
+  height: 500px;
+  width: 100%;
+}
