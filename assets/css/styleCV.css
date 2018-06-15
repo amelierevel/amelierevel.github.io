@@ -4,9 +4,13 @@ body{
 }
 li{
   border: 2px solid;
-  width: 25%;
+  background-color: #92C9B1;
   border-radius: 80px 10px 80px 10px;
-  font-size: 22px;
+
+  opacity: 0.8;
+}
+li:hover{
+  opacity: 1.0;
 }
 h2{
   background-color: #92C9B1;
@@ -23,4 +27,8 @@ h3{
 .imgLoisir{
   height: 500px;
   width: 100%;
+}
+#backgroundImg{
+  background-image: url(assets/img/imgFond.jpg);
+  background-attachment: fixed;
 }
