@@ -6,7 +6,6 @@ li{
   border: 2px solid;
   background-color: #92C9B1;
   border-radius: 80px 10px 80px 10px;
-
   opacity: 0.8;
 }
 li:hover{
@@ -25,10 +24,6 @@ h3{
   width: 20%;
 }
 .imgLoisir{
-  height: 500px;
+  height: 250px;
   width: 100%;
-}
-#backgroundImg{
-  background-image: url(assets/img/imgFond.jpg);
-  background-attachment: fixed;
 }
