@@ -2,15 +2,6 @@ body{
   text-align: center;
   background-color: #F1F0EA;
 }
-li{
-  border: 2px solid;
-  background-color: #92C9B1;
-  border-radius: 80px 10px 80px 10px;
-  opacity: 0.8;
-}
-li:hover{
-  opacity: 1.0;
-}
 h1{
   font-family: 'Cinzel Decorative', cursive;
 }
@@ -25,6 +16,18 @@ h3{
 i{
   color: black;
 }
+li{
+  border: 2px solid;
+  background-color: #92C9B1;
+  border-radius: 80px 10px 80px 10px;
+  opacity: 0.8;
+}
+li:hover{
+  opacity: 1.0;
+}
+nav{
+  background-color: #979B8D;
+}
 .rounded-circle{
   width: 15%;
 }
@@ -34,6 +37,28 @@ i{
 .imgLoisir{
   height: 250px;
   width: 100%;
+}
+.notAcquired{
+  color: #92C9B1;
+}
+.inProgress{
+  color: #979B8D;
+}
+#atomIcon{
+  height: 26px;
+  width: 26px;
+}
+#bootstrapIcon{
+  height: 20px;
+  width: 20px;
+}
+#jQueryIcon{
+  height: 22px;
+  width: 22px;
+}
+#lightroomIcon{
+  height: 22px;
+  width: 22px;
 }
 #heading{
   background-color: #92C9B1;
