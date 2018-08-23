@@ -16,17 +16,17 @@ h3{
 i{
   color: black;
 }
-li{
-  border: 2px solid;
-  background-color: #92C9B1;
-  border-radius: 80px 10px 80px 10px;
-  opacity: 0.8;
-}
 li:hover{
   opacity: 1.0;
 }
 nav{
   background-color: #979B8D;
+}
+.nav-item{
+  border: 2px solid;
+  background-color: #92C9B1;
+  border-radius: 80px 10px 80px 10px;
+  opacity: 0.8;
 }
 .rounded-circle{
   width: 15%;
@@ -43,6 +43,10 @@ nav{
 }
 .inProgress{
   color: #979B8D;
+}
+.devExperiences{
+  /* list-style-type: none; */
+  font-size: 20px;
 }
 #atomIcon{
   height: 26px;
