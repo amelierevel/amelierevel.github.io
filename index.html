@@ -3,9 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- CDN Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+  <!-- Icones Fontawesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" />
+  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet" />
+  <!-- Feuille de style -->
   <link rel="stylesheet" media="screen and (max-width: 1280px)" href="assets/css/petite_resolution.css" />
   <link rel="stylesheet" href="assets/css/styleCV.css" />
   <title>Amélie REVEL</title>
@@ -15,30 +19,36 @@
     <h1 class="display-4 font-weight-bold">Amélie Revel</h1>
     <h2 class="font-weight-bold" id="jobTitle">Développeuse web</h2>
   </div>
-  <nav class="navbar sticky-top mt-0">
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top mt-0">
     <a class="navbar-brand text-light font-weight-bold" href="#">Accueil</a>
-    <ul class="nav">
-      <li class="nav-item">
-        <a class="nav-link text-dark font-weight-bold" href="#resumeSection">A propos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-dark font-weight-bold" href="#formationSection">Formation</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-dark font-weight-bold" href="#skillsSection">Compétences</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-dark font-weight-bold" href="#experiencesSection">Expériences</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-dark font-weight-bold" href="#knowMoreSection">En savoir plus</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-dark font-weight-bold" href="#contactSection">Contact</a>
-      </li>
-    </ul>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-dark font-weight-bold mx-2" href="#resumeSection">A propos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark font-weight-bold mx-2" href="#formationSection">Formation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark font-weight-bold mx-2" href="#skillsSection">Compétences</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark font-weight-bold mx-2" href="#experiencesSection">Expériences</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark font-weight-bold mx-2" href="#knowMoreSection">En savoir plus</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark font-weight-bold mx-2" href="#contactSection">Contact</a>
+        </li>
+      </ul>
+    </div>
   </nav>
   <img src="assets/img/imgDeFond.jpg" alt="Photographie d'un loup" title="Loup" class="img-fluid" />
+  <!-- Début resumeSection -->
   <div id="resumeSection">
     <h2>A propos</h2>
     <img src="assets/img/Profil.jpg" alt="profil" title="profil" class="img-fluid rounded-circle m-2" />
@@ -53,7 +63,9 @@
       </div>
       <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
     </div>
-  </div>  <!--fin resumeSection-->
+  </div>
+  <!--Fin resumeSection-->
+  <!-- Début formationSection -->
   <div id="formationSection">
     <h2>Formation</h2>
     <p>
@@ -77,7 +89,9 @@
       <img src="assets/img/logoCassini.png" alt="Image représentant le logo du lycée Cassini" title="logo Cassini" class="rounded mx-auto d-block" />
       2009 : <span class="font-weight-bold">Baccalauréat Scientifique</span> au Lycée Cassini (60)
     </p>
-  </div>  <!--fin formationSection-->
+  </div>
+  <!--Fin formationSection-->
+  <!-- Début skillsSection -->
   <div id="skillsSection">
     <h2>Compétences</h2>
     <div class="row">
@@ -125,16 +139,16 @@
             PHP
             <i class="fas fa-paw fa-lg"></i>
             <i class="fas fa-paw fa-lg"></i>
-            <i class="fas fa-paw fa-lg notAcquired"></i>
+            <i class="fas fa-paw fa-lg"></i>
             <i class="fas fa-paw fa-lg notAcquired"></i>
             <i class="fas fa-paw fa-lg notAcquired"></i>
           </dd>
           <dd>
-            
+            <i class="fas fa-database fa-lg"></i>
             SQL
             <i class="fas fa-paw fa-lg"></i>
             <i class="fas fa-paw fa-lg"></i>
-            <i class="fas fa-paw fa-lg notAcquired"></i>
+            <i class="fas fa-paw fa-lg"></i>
             <i class="fas fa-paw fa-lg notAcquired"></i>
             <i class="fas fa-paw fa-lg notAcquired"></i>
           </dd>
@@ -220,24 +234,6 @@
             <i class="fas fa-paw fa-lg notAcquired"></i>
             <i class="fas fa-paw fa-lg notAcquired"></i>
           </dd>
-          <!-- <dd>
-            <i class="fab fa-microsoft fa-lg"></i>
-            Pack Office
-            <i class="fas fa-paw fa-lg"></i>
-            <i class="fas fa-paw fa-lg"></i>
-            <i class="fas fa-paw fa-lg"></i>
-            <i class="fas fa-paw fa-lg notAcquired"></i>
-            <i class="fas fa-paw fa-lg notAcquired"></i>
-          </dd> -->
-          <!-- <dd>
-            <img src="assets/img/lr.png" alt="icone Lightroom" id="lightroomIcon" />
-            Lightroom
-            <i class="fas fa-paw fa-lg"></i>
-            <i class="fas fa-paw fa-lg inProgress"></i>
-            <i class="fas fa-paw fa-lg notAcquired"></i>
-            <i class="fas fa-paw fa-lg notAcquired"></i>
-            <i class="fas fa-paw fa-lg notAcquired"></i>
-          </dd> -->
         </dl>
       </div>
       <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
@@ -254,18 +250,36 @@
           </dd>
         </dl>
       </div>
-    </div>  <!--fin row-->
-  </div>  <!--fin skillsSection-->
+    </div>
+  </div>
+  <!--Fin skillsSection-->
+  <!-- Début experiencesSection -->
   <div id="experiencesSection">
     <h2>Expériences</h2>
     <h3>Expériences en développement</h3>
     <ul>
-      <li class="devExperiences my-3">Chef de projet pour la réalisation de la page d'accueil d'un site de vente de pièces automobiles.</li>
-      <li class="devExperiences my-3">Réalisation d'un site de e-commerce en utilisant JQuery.</li>
-      <li class="devExperiences my-3">Réalisation d'un site de e-commerce en utilisant AngularJS.</li>
-      <li class="devExperiences my-3">Réalisation d'un site animalier sur le Berger de Picardie en utilisant Wordpress.</li>
-      <li class="devExperiences my-3">Réalisation d'un CV numérique.</li>
-      <li class="devExperiences my-3">Réalisation d'un site touristique pour le projet de Titre Professionnel.</li>
+      <li class="devExperiences my-3">
+        Chef de projet pour la réalisation de la page d'accueil d'un site de vente de pièces automobiles.
+        <p class="font-italic">HTML, CSS, Bootstrap.</p>
+      </li>
+      <li class="devExperiences my-3">
+        Réalisation d'un site de e-commerce de piscines en utilisant JQuery.
+        <p class="font-italic">HTML, CSS, Bootstrap, JavaScript, JQuery.</p>
+      </li>
+      <li class="devExperiences my-3">
+        Réalisation d'un site de e-commerce de guitares en utilisant AngularJS.
+        <p class="font-italic">HTML, CSS, Bootstrap, AngularJS, JSON, JavaScript, JQuery.</p>
+      </li>
+      <li class="devExperiences my-3">
+        Réalisation d'un site animalier sur le Berger de Picardie en utilisant le CMS Wordpress.
+      </li>
+      <li class="devExperiences my-3">
+        Réalisation d'un CV numérique.
+        <p class="font-italic">HTML, CSS, Bootstrap, JavaScript, JQuery.</p>
+      </li>
+      <li class="devExperiences my-3">
+        Réalisation d'un site touristique pour le projet de Titre Professionnel.
+      </li>
     </ul>
     <h3>Expériences principales</h3>
     <div class="row sucrerie">
@@ -303,7 +317,7 @@
           <img src="assets/img/SMDO.jpg" alt="Image représentant le logo du SMDO" title="Cliquez pour découvrir" class="img-fluid img-thumbnail mb-2" />
         </a>
       </div>
-        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
+      <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
     </div>
     <h3>Expériences secondaires</h3>
     <p class="font-weight-bold">
@@ -372,7 +386,9 @@
         </a>
       </div>
     </div>
-  </div>  <!--fin experiencesSection-->
+  </div>
+  <!--Fin experiencesSection-->
+  <!-- Début knowMoreSection -->
   <div id="knowMoreSection">
     <h2>En savoir plus...</h2>
     <h3>Informations complémentaires</h3>
@@ -407,36 +423,27 @@
         <p class="font-weight-bold lead">Patrimoine</p>
       </div>
     </div>
-  </div>  <!--fin knowMoreSection-->
+  </div>
+  <!--Fin knowMoreSection-->
+  <!-- Début contactSection -->
   <div id="contactSection">
     <h2>Contact</h2>
-    <p>
-      <i class="fas fa-female fa-lg"></i>
-      REVEL Amélie
-    </p>
-    <p>
-      <i class="fas fa-home fa-lg"></i>
-      247 rue de crèvecoeur - Ronquerolles - 60600 AGNETZ
-    </p>
+    <p><i class="fas fa-female fa-lg mx-2"></i>REVEL Amélie</p>
+    <p><i class="fas fa-home fa-lg mx-2"></i>247 rue de crèvecoeur - Ronquerolles - 60600 AGNETZ</p>
     <p class="font-weight-bold">(Mobilité géographique)</p>
+    <p><i class="fas fa-envelope fa-lg mx-2"></i><a href="mailto:amelie.revel20@yahoo.fr">amelie.revel20@yahoo.fr</a></p>
+    <p><i class="fas fa-mobile-alt fa-lg mx-2"></i>06.50.47.35.11</p>
     <p>
-      <i class="fas fa-envelope fa-lg"></i>
-      <a href="mailto:amelie.revel20@yahoo.fr">amelie.revel20@yahoo.fr</a>
+      <a href="https://www.linkedin.com/in/amelie-revel-387541b8/" target="_blank"><i class="fab fa-linkedin fa-2x mx-2"></i></a>
+      <a href="https://github.com/amelierevel" target="_blank"><i class="fab fa-github fa-2x mx-2"></i></a>
+      <a href="assets/img/CV.pdf" target="_blank"><i class="fas fa-file-pdf fa-2x mx-2"></i></a>
     </p>
-    <p>
-      <i class="fas fa-mobile-alt fa-lg"></i>
-      06.50.47.35.11
-    </p>
-    <p>
-      <a href="https://www.linkedin.com/in/amelie-revel-387541b8/" target="_blank">
-      <i class="fab fa-linkedin fa-2x"></i>
-      </a>
-      <a href="https://github.com/amelierevel" target="_blank">
-      <i class="fab fa-github fa-2x"></i>
-      </a>
-    </p>
-  </div>  <!--fin contactSection-->
+  </div>
+  <!--Fin contactSection-->
 </div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 <script src="assets/js/script.js"></script>
 </body>

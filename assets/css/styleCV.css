@@ -45,7 +45,6 @@ nav{
   color: #979B8D;
 }
 .devExperiences{
-  /* list-style-type: none; */
   font-size: 20px;
 }
 #atomIcon{
@@ -57,10 +56,6 @@ nav{
   width: 20px;
 }
 #jQueryIcon{
-  height: 22px;
-  width: 22px;
-}
-#lightroomIcon{
   height: 22px;
   width: 22px;
 }
